@@ -31,4 +31,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo sending post
-          curl -X post 5.182.17.162:5000
+          curl -X post 5.182.17.162:5000/updateProxy
